@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Ramaraja&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ramaraja", serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+a,
+button {
+  transition: 0.3s ease-in-out;
+}
+.flex {
+  display: flex;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.align-start {
+  display: flex;
+  align-items: flex-start;
+}
+.fit-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.header {
+  background-image: url("./images/image-hero-desktop.jpg");
+  min-height: 40rem;
+  padding: 4.8rem 2.4rem 0 2.4rem;
+}
+.nav {
+  max-width: 111rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__links {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+.nav__link {
+  color: white;
+}
+.nav__menubtn {
+  display: none;
+}
+@media all and (max-width: 420px) {
+  .nav__links {
+    display: none;
+  }
+  .nav__menubtn {
+    display: flex;
+  }
+}
