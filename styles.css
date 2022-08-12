@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Ramaraja&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Ramaraja", serif;
+  font-family: "Commissioner", sans-serif;
 }
 
 html {
@@ -56,8 +56,19 @@ button {
   width: 100%;
   object-fit: cover;
 }
+.main-btn {
+  background: #3cb3ab;
+  color: white;
+  border-radius: 3.35rem;
+}
+.main-btn:hover,
+.main-btn:focus {
+  background-color: #147a73;
+}
 .header {
   background-image: url("./images/image-hero-desktop.jpg");
+  background-position: center;
+  background-size: cover;
   min-height: 40rem;
   padding: 4.8rem 2.4rem 0 2.4rem;
 }
@@ -80,10 +91,29 @@ button {
   display: none;
 }
 @media all and (max-width: 420px) {
+  .header {
+    background-image: url("./images/image-hero-mobile.jpg");
+    min-height: 30rem;
+  }
   .nav__links {
     display: none;
   }
   .nav__menubtn {
     display: flex;
   }
+}
+.main {
+  background: #fafafa;
+  padding: 0 2.4rem 12.4rem 2.4rem;
+}
+.main__cont {
+  max-width: 73rem;
+  margin: 0 auto;
+  position: relative;
+  top: -12rem;
+}
+.main__cont > * {
+  background: white;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.0497193);
 }
