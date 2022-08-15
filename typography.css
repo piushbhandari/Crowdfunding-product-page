@@ -20,3 +20,39 @@
   font-size: 1.6rem;
   line-height: 2rem;
 }
+.stat-q {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 3.9rem;
+  overflow-wrap: break-word;
+}
+.stat-t {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+.about-title {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+.desc {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+.pledge-name {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+.pledge-quantity {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+.reward-btn {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}

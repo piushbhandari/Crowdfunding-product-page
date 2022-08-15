@@ -1,0 +1,104 @@
+.section-options {
+}
+.section-options__cont {
+  padding: 4.8rem;
+}
+
+.section-options__title {
+  margin-bottom: 3.5rem;
+}
+.section-options__description {
+  margin-bottom: 4rem;
+  color: #7a7a7a;
+}
+.section-options__options {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.section-options__option {
+  padding: 3.8rem 3.2rem 3.2rem 3.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+.section-options__row-1 {
+  margin-bottom: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.section-options__pledge-amount {
+  color: #3cb3ab;
+}
+.section-options__pledge-description {
+  color: #7a7a7a;
+  margin-bottom: 2.4rem;
+}
+.section-options__row3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-options__left {
+  color: #7a7a7a;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.section-options__left span {
+  color: black;
+}
+.section-options__cta {
+  padding: 1.5rem 3.3rem 1.6rem 3.2rem;
+  color: white;
+  background-color: #3cb3ab;
+  border-radius: 33.5px;
+}
+.section-options__cta:hover,
+.section-options__cta:focus {
+  background: #147a73;
+}
+
+@media all and (max-width: 573px) {
+  .section-options__cont {
+    padding: 4rem 2.4rem;
+  }
+  .section-options__option {
+    padding: 2.4;
+  }
+  .section-options__row-1 {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  .section-options__row3 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.4rem;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .section-options__title {
+    margin-bottom: 2.4rem;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+  .section-options__description {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    margin-bottom: 3.5rem;
+  }
+  .section-options__pledge-name {
+    font-weight: 700;
+    line-height: 1.7rem;
+  }
+  .section-options__pledge-amount {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+  }
+  .section-options__pledge-description {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
+  .section-options__left {
+  }
+}
